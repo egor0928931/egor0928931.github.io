@@ -1,0 +1,113 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.youtube-logo {
+    height: 20px;
+}
+
+.hamburger-menu {
+    height: 25px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.center-section {
+    flex: 1;
+    max-width: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar {
+    width: 0;
+    min-width: 0px;
+    height: 36px;
+    font-size: 15px;
+    padding-left: 12px;
+    display: flex;
+    flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    font-size: 16px;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+
+.search-bar:placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+
+.search-button {
+    height: 40px;
+    width: 65px;
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-left-width: 0px;
+    margin-right: 8px;
+    justify-content: center;
+}
+
+.search-img {
+    height: 25px;
+    align-self: center;
+}
+
+.voice-search-button {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+    justify-content: center;
+}
+
+.voice-search-img {
+    height: 24px;
+    align-self: center;
+}
+
+.right-section {
+    display: flex;
+    width: 182px;
+    justify-content: space-between;
+    margin-right: 24px;
+    margin-left: 29px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 60px;
+}
+
+.upload-img, .apps-img, .notifications-img {
+    height: 24px;
+}
+
+.my-channel-img {
+    height: 32px;
+    border-radius: 16px;
+}
